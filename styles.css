@@ -1,35 +1,21 @@
 *{
   margin:0;
   padding:0;
-  font-family: 'poppins', sans-serif;
+  
+  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">;
+
   box-sizing: border-box;
 }
 
-/* body{
-  background: black;
-  color: white;
-
-} */
-/* #header{
-  width: 100%;
-  height:100vh;
-  background-image:url(images/background.png);
- 
-  background-size: cover;
-  background-position: center;
-
-} */
-
-/* #header {
-  background-image:url(./images/IMG_5335.png);
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  height: 100%;
-} */
+body{
+  background: rgb(197, 133, 133);
+  color: rgb(250, 245, 245);
+}
 
 #header {
   background-image:url(./images/IMG_5335.png)
-
 }
 
 .container{
@@ -41,10 +27,7 @@ nav{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* .logo{
-  width:140px;
 
-} */
 nav ul li{
   display: inline-block;
   list-style: none;
@@ -52,7 +35,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: #fff;
+  color: rgb(250, 245, 245);
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -62,7 +45,7 @@ nav ul li a:after{
   content: '';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background:#a43a5b;
   position: absolute;
   left: 0;
   bottom:-6px;
@@ -79,14 +62,14 @@ nav ul li a:hover:after{
   font-size:60px;
   margin-top: 20px;
 }
-.header-text h1 span{
-color: #ff004f;
+.header-text h3 span{
+color: #a43a5b;
 }
 /* ========about */
 
 #about{
   padding: 80px 0;
-  color: #ababaa; 
+  color: rgb(250, 245, 245); 
 }
 .row{
   display: flex;
@@ -116,8 +99,6 @@ color: #ff004f;
 .tab-titles{
   display: flex;
   margin: 20px 0 40px;
-
-
 }
 
 .tab-links{
@@ -131,12 +112,13 @@ color: #ff004f;
   content:'';
   width:0;
   height:3px;
-  background:#ff004f ;
+  background:#a43a5b;
   position: absolute;
   left:0;
   bottom: -8px;
   transition: 0.5s;
 } 
+
 .tab-links.active-link::after{
 width:50px;
 
