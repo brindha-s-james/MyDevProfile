@@ -1,26 +1,20 @@
 *{
   margin:0;
   padding:0;
-  
-  font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">;
-
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
 }
 
 body{
   background: rgb(197, 133, 133);
   color: rgb(250, 245, 245);
-}
-
-#header {
   background-image:url(./images/IMG_5335.png)
 }
 
 .container{
   padding:10px 10%;
 }
+
 nav{
   display:flex;
   align-items: center;
@@ -67,23 +61,24 @@ color: #a43a5b;
 }
 /* ========about */
 
-#about{
+/* #about{
   padding: 80px 0;
   color: rgb(250, 245, 245); 
-}
+} */
 .row{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .about-col-1{
   flex-basis: 35%;
 
 }
-.about-col-1 img{
+/* .about-col-1 img{
   width: 100%;
   border-radius: 15px;
-}
+} */
 
 .about-col-2 {
   flex-basis: 60%;
@@ -185,4 +180,8 @@ margin-top: 30px;
 .btn2{
 display:inline-block;
 background: #a43a5b;
+}
+
+.parkingtix{
+  margin-top:15px ;
 }
